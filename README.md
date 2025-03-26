@@ -1,8 +1,16 @@
-# Wave_Plotter
+# Signal Wave Encoder for PSK, FSK and ASK with Fourier's visualizer
+
+Fourier's Visualizer example:
 
 <img src="https://github.com/user-attachments/assets/348005fd-0cf6-4b29-a78b-2474351ce4f3" width=620>
 
-This Python script creates an interactive visualization of a Fourier-based waveform using `matplotlib`. Users can adjust the frequency and the number of cycles via sliders, dynamically updating the plotted signal. Below is a breakdown of the code.
+
+
+Signal Wave Encoder example:
+
+<img src="https://github.com/user-attachments/assets/e610b6c4-3b3a-417c-b039-e0715627ddde" width=620>
+
+This Python script creates an interactive visualization of a Fourier-based waveform using `matplotlib` as well as for PSK, FSK and ASK encoding methods; Users can adjust the frequency and the number of cycles via sliders, dynamically updating the plotted signal.
 
 ## Dependencies
 The script uses:
@@ -80,7 +88,7 @@ s = SignalPlot()
 s.start()
 ```
 
-This allows users to manipulate the signal in real-time and observe the effect of Fourier series terms on wave generation.
+
 
 
 
